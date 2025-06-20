@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    /* normally border box na dida width ra height padding ra margin sanga add bhayera total pixels niskincha tara yo use garda height width mai padding haru include huncha */
 
 }
 body{
@@ -11,6 +12,8 @@ body{
 .header-section{
     margin: 70px;
     display: flex;
+    
+    /* display flex na halda sab order maaaucha i.e vertically aaucha tya code ma lekheko anusar tara yo halesi sab horizontally aayo */
 
 }
 .text-section{
