@@ -110,3 +110,77 @@ body{
     margin-top: 30px;
     font-weight: bold;
 }
+
+/* best selling section */
+.bestseller{
+    margin: 70px;
+
+ }
+ .bestseller h2{
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+.top-products{
+    display:flex;
+}
+.products{
+    width:430px;
+    margin-right:150px;
+    border-radius: 15px;
+    border:#ccc;
+}
+.products img{
+    width:500px;
+    /* height:auto; */
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    margin-bottom:20px;
+}
+.products p{
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+.features{
+    padding:5px;
+    display: flex;
+    flex-direction:column;
+}
+i{
+    margin-right: 10px;
+}
+.payment{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* payment div ko bhitra ko elements haru ko div ko border sanga ko space sab same garcha */
+    margin-bottom: 30px;
+    margin-top:30px;
+
+}
+.payment button{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #087f5b;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.payment button:hover{
+    background-color: #035c41;
+}
+.payment p{ 
+    font-weight: bolder;
+}
+.copyright{
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color:#087f5b;
+    color:white;
+    height:40px;
+}
